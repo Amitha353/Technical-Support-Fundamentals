@@ -1,0 +1,86 @@
+Digital Logic
+---------------
+
+* Computer Language : 
+-----------------------
+- A computer compares 1s and 0s but millions or billions of times per second.
+
+- Binary System : The communication that a computer users, a.k.a base-2 numeral system.
+- In computer standards - binary is grouped into 8 numbers or bits;
+- Bit : Binary digit;
+- Bytes : 8 bits; (2 power 8, 256 possibilities); Each byte can store one character;
+- ASCII "Charcter to Binary" Chart;
+
+
+* Character Encoding :
+----------------------
+- A byte can only store zeros and ones; (256 possibilities);
+- Character encoding : Assigns our binary values to characters, so that we as humans can read them; (a.ka. Dictionary)
+
+1. ASCII - oldest character encoding standard; (only needed to use 127 values of a possible 256 values);
+a = 01100001
+(characters, numbers, punctuations, few special characters);
+
+2. UTF-8 -> (Beyond 256 characters) Prevalent encoding standard used today; Along with ASCII standards it also uses a 
+variable number of bytes; 
+TF - 8 - built off the unicode standard - character encoding in a consistent manner;
+
+- Emoji : Not possible to mke emojis with a single byte, since only one character can be stores in a byte. UTF-8 allows
+us to store a character in more than one byte.
+
+3. Colors - RGB model, In computer language 3 characters are used for the RGB model; Each character represents a shade of 
+the color - that color changesthe pixel color on the screen; (8 combinations - provide colors);
+
+
+* Binary
+-------------
+ - punch cards - when the loom would reach a hole it would hook the thread underneath - state 1 (on) else state 0 (off);
+ - the computers read the punch cards - if there was hole - 1 else 0;
+ 
+ - Today binary system is based on the electricity via transistors allowing electrical signals to pass through. If there's an
+ electric voltage - 1 else 0;
+ 
+ - logic gates - aloow our transistors to do more complex tasks, like decide where to send electrical signals depending on
+ logical cionditions.
+ 
+ * How to count Binary
+ -----------------------
+ - Binary is the fundamental communication block of computers. Used in representation, networking, etc;
+ 
+ 128  64  32  16  8 4 2 1 ( L -> R - number is double of its right counterpart );
+ 
+ 128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 = 255 (255 - to 0 | total 256 values);
+ 
+ Guess the number
+ 128  64  32  16  8  4  2  1
+ 0    0   0   0   1  0  1  0   -> 10; ( 2 , 8 are on -> 8 + 2 = 10)
+ 
+ 
+ let h = 104 -> binary representation
+ 128  64  32  16  8  4  2  1
+ 0    1   1   0   1  0  0  0  -> 104 (64 + 32 + 8 = 104)
+ 
+ ------------------------------------------------------------------------------------------------------------------------------
+ 
+ * Computer Architecture Layer
+ ------------------------------
+ 
+ - Abstraction : To take a relatively complex system and simplify it for our use. We have a mouse, keyboard to use and
+ interact with the computer system without having to know and understand the underlying technical details. (under the hood)
+ 
+ - undelying implementation of the technology.
+ 
+ - Error Message - helps us identify the bug;
+ 
+ - Computer Architecture Overview
+ ---------------------------------
+ 4 main layers
+ 1. Hardware - physical components of a computer;
+ 2. Operating System - allows hardware to communicate with the system;
+ 3. Software - humans interact with computers;
+ 4. Users - Interacts with a computer - operate, program , etc;
+ 
+ -------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+ 
