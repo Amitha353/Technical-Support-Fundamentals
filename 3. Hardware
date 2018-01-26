@@ -37,4 +37,11 @@ MCC (looks for data from address in RAM) -----> External Data Bus -----(data)---
 * CPU - has an internal clock - that keeps the operation in sync, it connects to a clock wire.
 
 * When you send or receive dat, it sends a voltage to that clock wire to let the CPU know it can start doing calculations.
-- 
+- Clock wire - ticking of a clock , for every tick the cpu does one cycle of operations.
+- Clock cycle - when a voltage is sent to a clock wire.
+
+- For huges commands that process lots of data , then a lot of clock cycles need to run.
+* Clock Speed - The maximum number of clock cycles that it can handle in a certain time period. (3.40 ghz - gigahertz -
+3.4 billion cycles per second).
+
+* Overclocking - Increase the rate of CPU clock cycles in order to perform more tasks.
