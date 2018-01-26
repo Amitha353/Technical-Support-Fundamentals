@@ -1,0 +1,68 @@
+Components
+------------
+
+* CPU
+------
+-> Common CPU/ chipset manufacturers - Intel (Intel Core i7), AMD (AMD Athlon), Qualcomm (Snapdragon 810), Apple (Apple A8).
+-> CPU has an instruction set that enables it to process instructions.
+-> When you select your CPU, you'll need to make sure it's compatible with your motherboard -- the circuit board that connects
+all the components together;
+
+-> 2 types of motherboard sockets - CPU and motherboard socket must match;
+1. Land grid array (LGA)
+2. Pin grid Array (PGA)
+
+-> Require a Heat sink - to prevent the CPU from overheating;
+- It takes the heat from the CPU and dissipates it through a fan/ another medium;
+
+-> CPU architecture - based on the way CPU handles data.
+1. 32 bit
+2. 64 bit - handles large amounts of RAM more effectively (4GB), more responsive when running several programs at the same time 
+and switching between them frequently. 
+------------------------------------------------------------------------------------------------------------------------------------------
+
+* RAM (RAM stick needs to be compatible with the motherboard )
+-----
+- Computer's Short Term Memory - store data that we want to access quickly, it is volatile;
+- The computer is comprised of programs, to run a program we need to make a copy of it in the RAM so that the CPU can process it.
+- RAM - 16GB - 16 Gb of programs can be run in that time.
+
+* Lots of RAMS, commonly found is - DRAM (Dynamic Random-Access Memory).
+- DRAM : When a 1 or 0 is sent to DRAM it stores eash bit in a microscopic capacitor. Based on the value 1 or 0 the capitor is
+charged or discharged. These semiconductors are put into a chip that are on the RAM and store the data.
+- Different Memory sticks that DRAM chips can be put on:
+- modern DIMM - Dual Inline Memory Module - have different sizes of pins on them.
+
+* SDRAM - Synchronous DRAM
+- This RAM is synchronized to the system's clock speed allowing quicker processing of data.
+
+* DDR SDRAM - Double Data Rate SDRAM
+-  DDR1, DDR2, DDR3, DDR4;
+- faster, less power, larger capacity;
+- programs can run faster and more programs can be run simultaneously;
+
+------------------------------------------------------------------------------------------------------------------------------------------
+* Motherboards
+--------------
+- Foundation that holds the computer together;
+- expands computer functionality by adding expansion cards;
+- routes power from supply;
+- enables different parts of the computer to communicate with each other; (manages data between CPU, RAM and peripherals);
+
+1. Chipset - decides how components communicate with each other in the machine.
+ - chipset is made of 2 chips 
+ a. Northbridge - interconnected RAM, Video cards , etc; (it could be integrated into CPU);
+ b. Southbridge - maintain I/O controllers - hard drives, USB devices;
+
+- Pheripherals - external devices we connect to our computer- mouse, keyboard, monitor, etc;
+
+2. Expansion Slots - provide the ability to increase the functionality of the computer.
+- Standard for expansion slots - PCI Express - Pheripheral Component Interconnect Express
+
+3. Form factor 
+- Different mother board sizes available, decide the amount that can be put into them.
+- Common form factor - ATX (Advanced Technology eXtended) - diffeerent sizes;
+- ITX - Information Technology eXtended;
+------------------------------------------------------------------------------------------------------------------------------------------
+* Storage
+-----------
