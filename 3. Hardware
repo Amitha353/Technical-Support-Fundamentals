@@ -1,0 +1,40 @@
+Introduction to computer hardware
+-----------------------------------
+* Ports - Connection points that we can connect devices to that extend the functionality of our computer.
+* CPU - central processing unit - it communicates heavily with the RAM.
+* RAM (Random Access Memory) - Computer's short-term memory - used to store data temporarily.
+* Hard drive - holds all of our data, which includes all of our music, pictures and applications. (long term memory);
+* Motherboard - foundation of the computer - the body or circuitory system of the computer that connects all the pieces together.
+* Power supply - electricity from wall outlet onto a format that our computer can use.
+
+
+Program and Hardware
+----------------------
+* Programs - Instructions that tell the computer what to do.
+
+* EDB - External Data Bus - Row of wires that interconnect the parts of our computer - whrn voltage is sent across a wire it's 
+in state 1 else state 0. (transistors send voltage and the bits travel via the EDB);
+- EDB comes in different sizes - 8 bit/ 16 bit / 32 bit / 64 bit (64 wires going);
+- In the EDB - only one line of data can be sent at a time.
+
+* Consider an 8 bit EDB -> CPU receives a byte . Inside the CPU there are components known as Registers.
+* Registers - stores the data that our CPU works with.
+* To add two numbers - one is stores in register A and the other in register B, and the result is stored in register C.
+
+* MCC - Memory Controller Chip - It is the bridge between the CPU and the RAM. The MCB garbs the data from the RAM and
+sends it via an EDB to the CPU.
+
+* Address Bus - It connects the CPU and the MCC;
+CPU  -----> Adress bus (sends the location of the data and nto the data itself) -----> MCC
+MCC (looks for data from address in RAM) -----> External Data Bus -----(data)---------> CPU
+
+* RAM is not the fastest way to get more data to the CPU, the CPU also uses cache.
+* Cache - smaller than RAM but let's us store data often use / quickly reference.
+- Cache - there are three different cache levels in a CPU : L1, L2, and L3;
+- L1 - smallest and fastest cache;
+
+* How does the CPU know when the set of instructions ends, and when a new one begins?
+* CPU - has an internal clock - that keeps the operation in sync, it connects to a clock wire.
+
+* When you send or receive dat, it sends a voltage to that clock wire to let the CPU know it can start doing calculations.
+- 
