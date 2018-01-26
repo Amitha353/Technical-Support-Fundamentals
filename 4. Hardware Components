@@ -66,3 +66,73 @@ charged or discharged. These semiconductors are put into a chip that are on the 
 ------------------------------------------------------------------------------------------------------------------------------------------
 * Storage
 -----------
+- Data size :
+ -> smallest unit of a data storage is a bit; (1/0)
+ -> byte - comprised of 8 bits;
+ -> 1 Kilobyte - 1024 bytes;
+ -> 1 MB - 1024 KB
+ -> 1 GB - 1024 MB
+ -> 1 TB -> 1024GB
+ 
+ - Hard Drive - allows to store programs files;
+ -> 2 basic types of hard drives used:
+  1. Hard disk drives - HDDs - use a spinning platter and a mechanical arm to read and write information; The speed the platter 
+  rotates allows you to read and write data faster; - RPM (Revolution per Minute) ; (eg hard drive - 500gb - 5400 rpm);
+  - affordable
+  
+  2. Solid state drives - SSDs - no moving parts - similar to USB stick- information is stored on microchips and data travels 
+  a lot faster than HDDs. Form factor is slimmer than HDDs; expensive;
+  
+  Hybrid SSD and HDD drives;
+  
+  * Interfaces used by hard drives to connect to the system
+  1. ATA interfaces  common and most popular is the serial ATA drive (SATA - uses one cable for data transfers) - cable;
+  It's good for HDDs and not SDD's speed;
+  
+  2. NVM Express (NVMe) - Instead of a cable to connect the driver to the machine, the drive was added as an expansion slot
+  which allows greater throughput of data and increased efficiency.
+  
+  ------------------------------------------------------------------------------------------------------------------------------------------
+  * Power supplies
+  ------------------
+   - Computers - convert electricity from volts to useable;
+   
+   -> 2 types of electricity
+   a. DC -direct current - flows in one direction;
+   b. AC - alternate current - changes direction constantly;
+   
+   Computer uses DC and power supply provides AC; 
+   Wall - AC --> Computer ---> low volt DC -> computer interior;
+   
+ -> Consists
+ a. Fan
+ b. voltage information
+ c. cables -> motherboard
+ d. power cable
+ 
+ - Supply (220v) ---> Apliance (charger) 120V -> destroyed
+ - Supply (120v) ---> Appliance (charger) 220v -> charges slowly;
+ 
+ - Use proper voltage / pressue for your electronics;
+ - Voltages - amount of electricity pushed out (volts);
+ - Current - amount of electricity coming out (AMPs);
+ - Wattage - The amount of volts and amps that a device needs; (500W);
+  
+  ------------------------------------------------------------------------------------------------------------------------------------------
+  * Peripherals
+  ------------------
+  
+  - USB - Universal Serial Bus - popular connections for gadgets; USB 2.0,3.0, and 3.1;
+  - USB 2.0 - Transfer spead - 480 Mb/s (megabit per second) and not megabytes;
+  - USB 3.0 - Transfer speed of 5 Gb/s
+  - USB 3.1 - Transfer speed of 10 Gb/s
+  - Backward compatible, olderr ones are compatible with newer ports;
+  
+  - Type-C Connector - new and common - outputs audio, video, data and power;
+  
+  -> Display peripherals - monitors have them
+   - DVI cables are for video output;
+   - HDMI - Video and audio output;
+   - displayPort - outputs video and audio;
+  
+  
