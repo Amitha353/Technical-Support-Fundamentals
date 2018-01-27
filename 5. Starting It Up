@@ -1,0 +1,34 @@
+* BIOS
+----------
+
+-> Drivers / Services - The drivers contain the instructions the CPU needs to understand external devices (Keyboards, webcams, 
+printers).
+-> The CPU does not know about the device to talk to, so it has to connect to BIOS (Basic Input Output Services).
+-> BIOS - It is the software that helps initialize the hardware in the computer and gets the operating system up and running.
+-> The motherboard stores the BIOS in the ROM (Read only memory) chip, Rom is non-volatile;
+-> Once the Operating System loads, the drivers are loaded from the hard drivers;
+
+-> UEFI (Unified Extensible Firmware Interface) - performs the same function of starting the computer as BIOS, but better 
+compatible and new hardware support;
+
+* POST
+------
+-> Power-on self test - the beep that occurs when the computer is switched on, the computer runs a test to ensure all the 
+hardware is working correctly;
+-> The BIOS runs it when the computer is booted;
+-> The POST figures out what hardware is on the computer, then the BIOS initializes the hardware and loads up the essential
+drivers.
+-> In case the the hardware is malfunctioning, there is no way to display on the screen since the BIOS is not initialized;
+-> Single beep - on power on - no problem;
+-> Two beeps - POST error -> motherboard manual to check for the error;
+
+* BIOS settings
+----------------
+-> Special chip on the motherboard - CMOS chip - It stores basic data about booting the computer - date, time, start up process;
+-> Can change the CMOS/ BIOS setting;
+
+* Frequent task
+- Reimaging of a computer - refers to the a disk-image which is a copy of the operating system; (Process of wiping and
+re-installing an operating system.)
+
+----------------------------------------------------------------------------------------------------------------------------------
