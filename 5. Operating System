@@ -1,0 +1,26 @@
+* Operating System
+---------------------
+
+An operating system - whole package that manages the computer's resources and lets users interact with it.
+
+OS consists of 2 main parts
+-----------------------------
+1. User Space - Applications - System programs, user interfaces,text editors, music players, etc;
+2. Kernel Space - Process Manager, Memory Manager, File Manager and I/O Manager;
+
+Kernel - core of the operating system and talks directly to the hardware and manages system resources;
+Users we interact with the 2nd part the user space and not the kernel directly;
+Common OS - Windows(Microsoft), Mac, Linux(Business infrastructure and in consumer space);
+
+Linux(Business infrastructure and in consumer space - Linux is a kernel developed by Linus Torvalds);
+Different packages of Linux operating system - distribution - Ubuntu, Debian, Red Hat;
+
+* Chrome OS and Android Os run the Linux kernel underneath the hood;
+
+-> Kernel 
+-a. File storage and File management;(documents, music file, etc);
+-b. Process management - We have manyprograms on our system and we need to manage the order they run in, resources and time;
+  - Process scheduler makes multitasking possible - It switches execution of process at a fast rate;
+ -c. Memory Management - optimizes memory usage and makes sure the appllication has enough memory to run; 
+ -d. I/O Management - This is how the kernel communicates with external devices - disks, network - anything input or output 
+ from system;
