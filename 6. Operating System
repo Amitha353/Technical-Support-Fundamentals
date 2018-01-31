@@ -24,3 +24,116 @@ Different packages of Linux operating system - distribution - Ubuntu, Debian, Re
  -c. Memory Management - optimizes memory usage and makes sure the appllication has enough memory to run; 
  -d. I/O Management - This is how the kernel communicates with external devices - disks, network - anything input or output 
  from system;
+----------------------------------------------------------------------------------------------------------------------------------------
+
+* Files and File Systems
+-------------------------
+-> The kernel handles file storage and file systems on the machine;
+-> 3 main components to handle files in OS:
+  a. File Data
+  b. File MetaData
+  c. File System
+  
+  c. File Systems -> Differ based on the amount of data they store, speed they operate and the OS they are on;
+  
+  - Most common File System in Windows - NTFS  (Has features like - Encryption, Faster Access Speeds, Security);
+  - Another Microsoft File system (in-progress) - ReFS Resilient File System ;
+  
+  - Mac OS - default file system - HFS+ -> It is journaled - beneficial since it saves the disk state in case of a failure.
+  
+  - Linux - different distributions use different file systems; Standard file system for Linux - ext4 - compatible with older
+  ext file systems;
+  
+  -> Different file system types are not compatible;
+  -> Data is written into the hard drive in the form of data blocks;
+  -> Block storage - Improves faster handling of data because the data is not stored as one long piece and can be accessed
+  quicker and better for utilizing storage space;
+  
+  b. File Metadata - consists of - File owner, Permissions, File size, Date Modified, Date Created, File Type;
+  - File extension - the appended part of a filename that tells us what type of file it is in certain operating systems;
+    coll_123.jpeg - jpeg - is a file extension associated with image files;
+  ----------------------------------------------------------------------------------------------------------------------------------------
+  * Process Management
+  ----------------------
+   -> Process - A program that executes like - internet, browser, or text editor;
+   -> Program - An application that runs like Chrome;
+   - Many processes of the same program running at the same time;
+   - Inorder to run the program, computer resources need to be allocated - RAM, CPU;
+   - With finite amount of resources multiple program need to run;
+  - Multiple process seem to run simultaneously; So when a program needs to run a process needs to be created for it;
+   For this process the hardware resources like CPU and RAM need to be allocated to it;
+  - The kernet has to schedule time for the CPU to execute the instructions in the process;
+  
+  - The cpu doesn't run all the processes simultaneously instead it run them one after the other by means of time slices;
+  -> Time slice - A very short interval of time that gets allocated to a process for CPU execution;
+  
+  -> Kernel - Creates processes, efficiently schedules them, and manages how processes are terminated and assigs it new processes;
+  
+  -> System is slow - many factors
+  - To many processses are running;
+  - One process is taking to much time;
+  ----------------------------------------------------------------------------------------------------------------------------------------
+  * Memory Management
+  --------------------
+  - When a process runs it needs CPU time and memory(In order to enable the computer to read and load quickly, compared to hard 
+  drives memory comes in small quantities);
+  - In order to use more memory than what we have, we use virtual memory;
+  - Virtual memory - The combination of hard drive space and RAM that acts like memory that our processes can use;
+  
+  When a process is executed
+   -> The data of the program is taken in chunks called pages;
+   -> These pages are stored in virtual memory (RAM / Hard Drive Space);
+   -> In order to read and execute these pages they need to be sent to physical memory (RAM);
+   
+  - When the virtual memory is stored on the harddrive, the allocated space is called the - swap space;
+  ----------------------------------------------------------------------------------------------------------------------------------------
+  * I/O Management
+  ------------------
+  -> Devices that perform input and output - monitor, keyboard,mouse, mic, hard disk drives, n/w adaptors;;
+  -> The kernel needs to load up drivers so that are used , so that it can be recogined and communicate with different hardwares;
+  -> When the kernel starts the drivers to communicate with the hardware, it also manages the data transfer in and out of the
+  devices, amdist them and users;;
+  -> The kernel handles all the intercommunication between the devices, and efficient data transfer mechanism;
+  
+  * "Slow machine"
+  -> Hardware resource deficiency;
+    - RAM less - less processes;
+    - CPU less - program execution speed slow;
+    - too manu I/p or O/p block other data from being sent or received;
+   ----------------------------------------------------------------------------------------------------------------------------------------
+    * Interacting with the OS : User Space
+    -----------------------------------------
+   -> Two ways of interaction with the OS by the user
+    - Shell (CLI - Command Line Interface Shell);
+    - Graphical User Interface (GUI);
+    
+    -> Shell - A program that interprets text commands and sends them to the OS to execute; 
+    (Linux - Bash - Bourne Again Shell | Windows - Powershell);
+  --------------------------------------------------------------------------------------------------------------------------------
+   * Logs
+   ---------
+   - Files that record system events the computer like a system's diary;
+  --------------------------------------------------------------------------------------------------------------------------------
+   * Boot Process
+   ------------------
+   1. The computer is powered on;
+   2. BIOS/UEFI - A low-level software that initializes the computers hardware to ensure everything is working;
+   3. THE BIOS/UEFI - run the POST (Power On Self Test)- this runs series of test to ensure the computer is in proper 
+   working order;
+   4. Depending on the BIOS/UEFI configuration a boot device will be selected, devices like disk drives, usb, etc are configured
+   in a certain boot order, the devices will be checed in this order; 
+   5. The computer will search for bootloader;
+   - Bootloader - A small program that loads the operating system; It loads the programs, complex ones and then OS;
+   6. Once the Bootloader loads the OS, the Kernel gets loaded - The kernel controls the access to the computer resources, 
+   drivers and data transfer;
+   7. Essential system processes and user space item are launched - e.g - login page, desktop application - interact with system;
+   
+    
+  
+   
+   
+   
+  
+  
+  
+  
