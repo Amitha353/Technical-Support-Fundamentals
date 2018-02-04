@@ -1,0 +1,65 @@
+* Networking
+---------------
+-> Internet - The physical connection of the computers and wires around the world;
+-> Web - Information on the internet;
+-> Ways to access the internet - Web, Email, Chat, File-sharing programs;
+
+-> The Internet is composed of a massive network of satellites, cellular networks, and physical cables buried beneath the ground;
+-> Computers called servers connect to the internet directly and not all pc, desktops;
+-> Servers - store the websites we use - wikipedia, google, etc - these websites serve the content- requested by the client (mobile phines, laptops, etc);
+  - Internet (Satellites/Cellular networks/cables) -> Server -> Websites (Google, wikipedia) -> Client (phone, desktop);
+  
+ -> Clients don't connect directly to the internet - connect to a network run by the ISP (Internet Service Provider) like - CenturyLink, Level 3, Comcast, Telefonica, etc;
+ 
+ -> ISPs - have built networks and run all the necessary physical cabling that connects millions of computers together in one network;
+  - They also connect to other networks and ISPs; The other network connect to google, universities, etc; - together form the Internet;
+ 
+ -> Computers on a network have an identifier called an IP address which is composed of digits and dots;
+ -> To access websites like - www.coursera.org - go to the Ip address;
+ -> Devices that can connect to the network have another unique identifier - MAC address - permanemt ad hardcoded onto a device;
+ Eg : - 82:4f:23:59:47:4;
+ 
+ -> When data is sent or received on a network both IP and MAC address must be available;
+ 
+ -> Data sent through a network is sent in packets (bits of binary data); 
+ ---------------------------------------------------------------------------------------------------------------------------------------
+  * Networking Hardware
+  ---------------------
+  -> Ways to connect to the Internet (Major)
+    a. Ethernet cable - physically connect to the network through a cable;
+    b. WIFI - wireless networking - through radios and antennas;
+    c. Fiber optics - expensive and allow greater speed that other methods - contains of glass fibers that move data through light instead of electricity;
+    
+  -> Router - Connects lots of different devices together and helps route the network traffic;
+  -> Router utilizes network protocols to determine where to send the data packet;
+  -> Switches and hubs are devices that help the data travel;
+ 
+ -> Network Stack - A set of hardware or software that provides the infrastructure for a computer;
+ ---------------------------------------------------------------------------------------------------------------------------------------
+ * The Language of the Internet
+ ---------------------------------
+ -> Network protocols - Set of rules in order to route data through a network;
+  - Route efficiently, aren't corrupted, secure, destination, names appropriately;
+  
+ * TCP (Transmission Control Protocol) and the IP (Interpet Protocol) - TCP/IP
+  - IP - delivers packets to the right computers;
+  - TCP - handles reliable data transfer between networks;
+  
+ -------------------------------------------------------------------------------------------------------------------------------------
+ * The Web
+ -----------
+ - Many ways to access the internat - web, mail, chat, file sharing, etc;
+ - All websites can be access through the Web;
+ - Websites are text documents that are formatted with HTML - hypertext markup language - coding language used by web browsers;
+ - Web pages - made of very basic components - multimedia content;
+ - To navigate into a website you type a url - www.google.com - URL - Uniform Resource Locator - is a web address;
+ world wide web. domain name . domain ending ------> www.reddit.com;
+ - Domain Name - can be registered to ICANN - Internet Corporation for Assigned Names and Numbers;
+ - Domain Endings
+  - .edu - education institutions;
+  - .org - organizations, etc;
+ 
+ * 172.217.6.46 - maps to google homepage through a protocal called DNS (Domain Name System);
+ - DNS - acts like the Internet's directory and uses human readable words to map to an IP address;
+  -------------------------------------------------------------------------------------------------------------------------------------
+ 
