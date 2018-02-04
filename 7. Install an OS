@@ -18,3 +18,12 @@
 - Ensure the BIOS UEFI boot order ste to boot from the USB drive in available;
 - The userspace, main screen - desktopm, bottom right - task-bar, bottom-left -applications, files, etc, power off;
 - System-setting;
+
+-> Installing Linux
+--------------------
+- Multiple distributions, most popular - Ubuntu;
+- The copied content must make the USB device bootable from the BIOS; Can use the tool - etcher.io - inorder to make it bootable;
+- The shell - Terminal(in the GUI);
+- echo -> print; echo $SHELL -> /bin/bash;
+- echo Hello -> Hello;
+* Create a file -> touch my_super_cool_file
