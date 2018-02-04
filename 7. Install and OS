@@ -1,0 +1,20 @@
+* Installing an Operating System
+----------------------------------
+-> Choosing an Operating System
+-------------------------------
+ - CPU architecture  - 32-bit or 64-bit architecture, the operating systems will also be optimized for this architecture. The CPU and the OS must be compatible;
+
+- Os can come in  -  disk form, usb form, or downloaded from the internet; Installing an operating system many time using a single disk will not be time efficient or scalable;
+
+-> Virtual Machines
+---------------------
+- A copy of a real machine;
+- Work on another operating system on the existing onw. E.g Windows machine running an Linux os through virtualbox;
+- VMs - use the physical Memory, CPU and storage, they add the benefit of running multiple operatimng systems at once. They are easier to maintain and provision;
+- They reclaim the resources when they are no longer needed; (QLab);
+
+-> Installing Windows 10 OS
+--------------------------
+- Ensure the BIOS UEFI boot order ste to boot from the USB drive in available;
+- The userspace, main screen - desktopm, bottom right - task-bar, bottom-left -applications, files, etc, power off;
+- System-setting;
