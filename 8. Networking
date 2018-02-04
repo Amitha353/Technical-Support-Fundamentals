@@ -62,4 +62,15 @@
  * 172.217.6.46 - maps to google homepage through a protocal called DNS (Domain Name System);
  - DNS - acts like the Internet's directory and uses human readable words to map to an IP address;
   -------------------------------------------------------------------------------------------------------------------------------------
- 
+ - DARPA
+ - ARPANET
+ - TCP/IP 
+ - WWW
+
+* Limitations
+-----------------
+  IPv4 - It is an address that consist of 32 bits separated into four groups; (Totally < 4.3 billion IP address # websites , users more);
+  IPv6 - consists of 128bits (4 times of IPv4); - 379f:3e7d:4860:0370:7334:0000; (possibilities 2 power 128);
+  NAT - Network Address Translation - Lets organizations use one public IP address and many private IP addresses within the network
+The router may need to be configured with NAT to facilitate communication between the company's network and the outside world;
+-------------------------------------------------------------------------------------------------------------------------------------
