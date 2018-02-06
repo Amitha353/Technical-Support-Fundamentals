@@ -1,0 +1,29 @@
+Software
+----------
+-> It is how users directly interact with the computer - 3 layer of the computer - e.g - Operating system, music program, etc;
+-> The Hardware is the physical stuff that can be touched while the software is the intangible instructions that tell the hardware what to do;
+
+-> Coding - Translating one language to another; English to computer languge, morse code, etc;When an application is being built it is termed as coding an application;
+-> Scripting - coding in a scripting language, scripts are used to perform a single or limited range of tasks;
+-> Programming - Coding in a programming language;
+-> Programming languagea - Special languages that software developers use to write instructions for computers to execute;
+
+* Types of Software
+---------------------
+- Copyright - used when creating original work, softwares can be copyright/ open-source;
+1. Application Software - Any software created to fulfill a specific need, like a text editor, web browser, or graphic editor;
+2. System Software - Software used to keep the core system running like the operating system tools and utilites;
+3. Firmware - Software that is permanently stored on a computer component; - BIOS - helps to startup the hardware on the computer and load up the operating system;
+
+* Abstraction
+----------------
+-> Programs are instructions to the CPU - binary code or bits are sent to the CPU
+-> Then the instruction set is made use of to run the commands;
+-> Abstraction - It is the process of taking a complex system and simplifying it for use;
+
+* Computing
+-------------
+-> Earlier instructions where sent to puch cards, and the digits ion them where read by the cPU and stores in a memory location;
+-> Then emerged Assembly Language; It allowed computer scientists to use human readable instructions, assembled code, that the machibe could understand - instead of binary they where machine instructions; Interget 1 from register 1 add integer 2 from register 2 and output in register 4;
+-> Compiled programming languages - uses human readable instructions and then sends them through a compiler which translates it nto machine code - invented by Admiral Grace Hopper - 1959; - Compatible to run program on any CPU;
+-> Interpreted Languages - they are not compiled ahead of time; A file that has code written in one of these languages is called a script;  - The script is run by an interpreter, which interprets the code into CPU instructions just in time to run them;
