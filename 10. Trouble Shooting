@@ -1,0 +1,38 @@
+Computer Architecture Model
+----------------------------
+Hardware
+   |
+Operating System
+   |
+Network
+   |
+ Software
+   |
+  User
+  
+ Troubleshooting
+ ---------------
+ - The ability to diagnose and resolve a problem;
+1. Ask Questions
+2. Isolating the Problem - root cause;
+3. Follow the Cookie Crumbs - Figure out where the problem began and where it will end;
+4. Start with the Quickest Step First;
+
+Pitfalls
+-----------
+1. Don't go into autopilot;
+2. Not finding the root cause;
+
+Customer Service
+-----------------
+1. Show Empathy;
+2. Be conscious of your tone;
+3. Acknowledge the user;
+4. Developing trust;
+
+Documentation
+--------------
+- Ticketing Issues
+- Tracking Issues - Bugzilla, JIRA, Redmine;
+
+--------------------------------------------------------------------------------------------------------------------------------------------
