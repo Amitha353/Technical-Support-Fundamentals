@@ -27,3 +27,27 @@ Software
 -> Then emerged Assembly Language; It allowed computer scientists to use human readable instructions, assembled code, that the machibe could understand - instead of binary they where machine instructions; Interget 1 from register 1 add integer 2 from register 2 and output in register 4;
 -> Compiled programming languages - uses human readable instructions and then sends them through a compiler which translates it nto machine code - invented by Admiral Grace Hopper - 1959; - Compatible to run program on any CPU;
 -> Interpreted Languages - they are not compiled ahead of time; A file that has code written in one of these languages is called a script;  - The script is run by an interpreter, which interprets the code into CPU instructions just in time to run them;
+----------------------------------------------------------------------------------------------------------------------------------
+* Managing Software
+--------------------
+- Drivers - specific softwares that enable us to interact with the respective hardware;
+- Applications - used for day to day job functions;
+- Utilities - Calculators, setting, etc tools;
+
+- Software Bug - An error in software that causes unexpected results;
+- Software Management - Includes installing, updating, and removing the softwares;
+
+* Git
+--------
+-> A version control system that helps keep track of changes made to files and directories;
+-> .exe - A file extension found in Windows for an executable file;
+
+* Ubuntu
+--------
+-> apt-get install git;
+- apt - command used in Ubuntu's package manager;
+- apt install git / sudo apt install git
+- sudo - Superuser do
+- remove - sudo apt remove git
+
+----------------------------------------------------------------------------------------------------------------------------------
